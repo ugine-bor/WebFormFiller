@@ -1,0 +1,310 @@
+.status {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.processing {
+    background-color: #007bff;
+}
+
+.on-hold {
+    background-color: #ffc107;
+}
+
+.completed {
+    background-color: #28a745;
+}
+
+.cancelled {
+    background-color: #dc3545;
+}
+
+.refunded {
+    background-color: #17a2b8;
+}
+
+.failed {
+    background-color: #6c757d;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+
+
+
+
+.processing-p {
+    color: #007bff;
+}
+
+.on-hold-p {
+    color: #ffc107;
+}
+
+.completed-p {
+    color: #28a745;
+}
+
+.cancelled-p {
+    color: #dc3545;
+}
+
+.refunded-p {
+    color: #17a2b8;
+}
+
+.failed-p {
+    color: #6c757d;
+}
+
+.oneline {
+    display: flex;
+}
+
+
+
+
+.order-details-container {
+    border: 1px solid #DDBC89;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.order-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+    .order-details-table th, .order-details-table td {
+        padding: 10px;
+        border: 1px solid #DDBC89;
+    }
+
+    .order-details-table th {
+        background-color: #F7F5E6;
+    }
+
+    .order-details-table td {
+        background-color: #FFF;
+    }
+
+.button-primary {
+    background-color: #DD9933;
+    color: #FFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+   width: 80% !important;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation {
+    float: left;
+    width: auto !important;
+}
+
+.order-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.order {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.order-status {
+    display: flex;
+}
+
+.order-status-label {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.order-status-description {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.order-status-label:hover .order-status-description {
+    display: block;
+}
+
+.order-items {
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.order-item {
+    margin-bottom: 5px;
+}
+
+    .order-item p {
+        margin: 0 0 2px;
+    }
+
+.product-tag {
+    margin: 0 0 2px;
+}
+
+.order-actions {
+    margin-top: 5px;
+    display: flex;
+    gap: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 8px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 12px;
+}
+
+.btn-yellow {
+    background-color: #f0ad4e;
+}
+
+    .btn-yellow:hover {
+        background-color: #ec971f;
+    }
+
+.btn-green {
+    background-color: #5cb85c;
+}
+
+    .btn-green:hover {
+        background-color: #4cae4c;
+    }
+
+p {
+    margin-bottom: 0.0em !important;
+}
+
+.widget-area:secondary {
+    width: 18%;
+}
+
+/* ќбщий стиль дл€ всех кнопок */
+.btn-show-entries {
+    background-color: #f0ad4e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-family: 'Arial', sans-serif;
+}
+
+    .btn-show-entries:hover {
+        background-color: #ec971f;
+    }
+
+/* Ѕолее специфичные стили дл€ перезаписи */
+.order-actions .btn-show-entries,
+.order-actions button.btn-show-entries,
+.order-actions input[type="button"].btn-show-entries,
+.order-actions input[type="submit"].btn-show-entries {
+    background-color: #f0ad4e !important;
+    border: none !important;
+    color: white !important;
+    padding: 10px 20px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+    margin: 4px 2px !important;
+    cursor: pointer !important;
+    border-radius: 4px !important;
+    transition: background-color 0.3s ease !important;
+    font-family: 'Arial', sans-serif !important;
+}
+
+    .order-actions .btn-show-entries:hover,
+    .order-actions button.btn-show-entries:hover,
+    .order-actions input[type="button"].btn-show-entries:hover,
+    .order-actions input[type="submit"].btn-show-entries:hover {
+        background-color: #ec971f !important;
+    }
+
+/* Flexbox контейнер дл€ выравнивани€ текста и кнопок */
+.order-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product-tag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+    /* ‘иксированна€ ширина дл€ текстового блока */
+    .product-tag div:first-child {
+        width: 60px;
+        margin-right: 10px;
+    }
+
+.tag-button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.question-mark {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}

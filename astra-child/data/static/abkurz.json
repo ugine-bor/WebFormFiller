@@ -1,0 +1,106 @@
+{
+    "HA": {
+        "de": "Hauptantrag auf Bürgergeld",
+        "ru": "Первичное заявление на гражданское пособие"
+    },
+    "WBA": {
+        "de": "Antrag auf Weiterbewilligung des Bürgergeldes",
+        "ru": "Заявление на продление гражданского пособия"
+    },
+    "WBS": {
+        "de": "Antrag auf einen Wohnberechtigungsschein",
+        "ru": "Заявление на получение свидетельства о праве на жильё"
+    },
+    "KDU": {
+        "de": "Anlage zur Feststellung der Kosten der Unterkunft und Heizung",
+        "ru": "Приложение для определения затрат на проживание и отопление"
+    },
+    "BB": {
+        "de": "Anlage zur Gewährung eines unabweisbaren besonderen Bedarfs",
+        "ru": "Приложение  Обеспечение неизбежными особыми потребностями"
+    },
+    "EK": {
+        "de": "Anlage zur Feststellung der Einkommensverhältnisse einer in der Bedarfsgemeinschaft lebenden Person ab 15 Jahren",
+        "ru": "Приложение для определения доходов лица в возрасте 15 лет и старше, проживающего в сообществе нуждающихся"
+    },
+    "EKS": {
+        "de": "Anlage zur vorläufigen oder abschließenden Erklärung zum Einkommen aus selbständiger Tätigkeit, Gewerbebetrieb oder Land- und Forstwirtschaftim Bewilligungszeitraum",
+        "ru": "Приложение к предварительной или окончательной декларации о доходах от самозанятости, бизнеса или сельского и лесного хозяйства в течение периода утверждения "
+    },
+    "HG": {
+        "de": "Anlage zur Feststellung des Umfangs der Hilfebedürftigkeit bei Vorliegen einer Haushaltsgemeinschaft",
+        "ru": "Приложение для определения степени необходимости в помощи при наличии совместного домохозяйства"
+    },
+    "KI": {
+        "de": "Anlage für ein Kind unter 15 Jahren in der Bedarfsgemeinschaft",
+        "ru": "Приложение для ребенка до 15 лет в сообществе нуждающихся"
+    },
+    "MEB": {
+        "de": "Anlage zur Gewährung eines Mehrbedarfs für kostenaufwändige Ernährung",
+        "ru": "Приложение Обеспечение дополнительными потребностями в дорогостоящем питании"
+    },
+    "OA": {
+        "de": "Anfrage Ortsabwesenheit",
+        "ru": "Запрос о пребывании вдали от дома"
+    },
+    "SE": {
+        "de": "Schweigepflichtentbindungserklärung",
+        "ru": "Заявление об освобождении от конфиденциальности"
+    },
+    "SV": {
+        "de": "Anlage Sozialversicherung der Bezieherinnen und Bezieher von Bürgergeld",
+        "ru": "Приложение Социальное страхование получателей гражданского пособия"
+    },
+    "UF": {
+        "de": "Anlage Unfallfragebogen zum Antrag auf Bürgergeld nach dem Zweiten Buch Sozialgesetzbuch (SGB II)",
+        "ru": "Приложение к анкете о несчастном случае к заявлению на гражданские пособия"
+    },
+    "UH1": {
+        "de": "Anlage zur Feststellung von Trennungsunterhalt oder nachehelichem/\nnachpartnerschaftlichem Unterhalt",
+        "ru": "Приложение для определения раздельного содержания или содержания после брака/\nпостпартнерские алименты"
+    },
+    "UH2": {
+        "de": "Anlage zur Feststellung von Unterhaltsansprüchen aus Schwangerschaft",
+        "ru": "Приложение для определения претензий на содержание в связи с беременностью"
+    },
+    "UH3": {
+        "de": "Anlage zur Feststellung von Unterhaltsansprüchen von Kindern oder der\nAntragstellerin/des Antragstellers oder der Partnerin/des Partners unter\n25 Jahren gegenüber mindestens einem Elternteil",
+        "ru": "Приложение для определения претензий на содержание детей или заявителя или партнера до 25 лет по отношению к хотя бы одному родителю "
+    },
+    "VAM": {
+        "de": "Veränderungsmitteilung bei Bezug von Bürgergeld nach dem\nZweiten Buch Sozialgesetzbuch (SGB II)",
+        "ru": "Уведомление об изменениях при получении гражданского пособия"
+    },
+    "VE": {
+        "de": "Anlage zur Überprüfung, ob eine Verantwortungs- und Einstehensgemeinschaft (”eheähnliche Gemeinschaft”) vorliegt",
+        "ru": "Приложение для проверки существования сообщества ответственности и обязательств («брачное сообщество»)"
+    },
+    "VM": {
+        "de": "Anlage zur Selbstauskunft/Feststellung der Vermögensverhältnisse der\nBedarfsgemeinschaft",
+        "ru": "Приложение для самораскрытия/определения финансового положения сообщества нуждающихся"
+    },
+    "WEP": {
+        "de": "Anlage für eine weitere Person ab 15 Jahren in der Bedarfsgemeinschaft",
+        "ru": "Приложение для одного дополнительного человека в возрасте 15 лет и старше в рамках сообщества нуждающихся"
+    },
+    "Unfallfragebogen": {
+        "de": "Unfallfragebogen zum Antrag auf Leistungen nach dem Dritten Buch Sozialgesetzbuch – SGB III",
+        "ru": "Анкета о несчастном случае для подачи заявления на получение гражданского пособия"
+    },
+    "Arbeitsbescheinigung": {
+        "de": "Arbeitsbescheinigung des Arbeitgebers",
+        "ru": "Справка с места работы от работодателя"
+    },
+    "Einkommensbescheinigung": {
+        "de": "Nachweis über die Höhe des Arbeitsentgelts",
+        "ru": "Подтверждение размера заработной платы"
+    },
+    "NaN": {
+        "de": "Sozialversicherung",
+        "ru": "Социальное страхование"
+    },
+	"PREMIUM": {
+		"de": "Bitte füllen Sie alle Felder aus und klicken Sie auf die Schaltfläche „Antrag erhalten“ – dadurch wird eine Aufforderung Ihres Assistenten zum Ausfüllen aktiviert. Unser Spezialist wird sich per E-Mail mit Ihnen in Verbindung setzen, um die Einzelheiten der weiteren Zusammenarbeit zu vereinbaren.",
+		"ru": "Заполните, пожалуйста, все поля и нажмите на кнопку «Получить антраг» - этим Вы активирует запрос у Вашего ассистента по заполнению. Наш специалист свяжется с Вами по электронной почте, чтобы договориться о деталях дальнейшего сотрудничества."
+	}
+}

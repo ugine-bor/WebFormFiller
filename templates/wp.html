@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+<body>
+
+<h1>{{data}}</h1>
+<h2>{{orderId}}</h2>
+
+<form action="/payment" method="post" id="payForm">
+    <input type="hidden" name="myData" value="myValue">
+    <button type="button" onclick="submitForm()">КУПИТЬ</button>
+</form>
+
+<script>
+    function submitForm() {
+        document.getElementById("payForm").submit();
+    }
+</script>
+
+
+</body>
+</html>

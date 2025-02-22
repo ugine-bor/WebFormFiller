@@ -1,0 +1,94 @@
+/* Theme Name: astra child
+* Template: astra
+ */
+
+/* Цветовые стили для кнопок */
+.btn-red {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-red:hover {
+  background-color: #d32f2f;
+}
+
+.btn-green {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-green:hover {
+  background-color: #388e3c;
+}
+
+.btn-yellow {
+  background-color: #ffeb3b;
+  color: black;
+}
+
+.btn-yellow:hover {
+  background-color: #fdd835;
+}
+
+/* Стили для контейнера заказа */
+.ordercontainer {
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.ordercontainer h2 {
+  margin-bottom: 20px;
+}
+
+/* Стили для таблицы */
+.table-container {
+  margin: 20px 0;
+  overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-left: 16px;
+}
+
+.table th, .table td {
+  padding: 2px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+/* Стили для формы */
+.form-control, .form-select, .input-group-text {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Стили для контейнера кнопок */
+.button-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+
+/*Переопределение wc*/
+.plus, .minus {
+    color: #e9a361 !important;
+}
+
+.screen-reader-text {
+    position: unset !important;
+    clip-path: unset !important;
+}
